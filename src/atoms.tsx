@@ -2,9 +2,9 @@ import { atom, selector } from "recoil";
 import { recoilPersist } from "recoil-persist";
 
 export enum Categories {
-  "TO_DO" = "TO_DO",
-  "DOING" = "DOING",
-  "DONE" = "DONE",
+  "TO_DO" = "해야 함✊🏻",
+  "DOING" = "하는 중..💦",
+  "DONE" = "끝🤯",
 }
 
 export interface IToDo {

@@ -12,6 +12,7 @@ const Input = styled.input`
   background: none;
   border: none;
   border-bottom: 2px solid whitesmoke;
+  text-align: center;
 `;
 
 const AddBtn = styled.button`
@@ -45,7 +46,7 @@ function CreateToDo() {
         {...register("toDo", {
           required: "Please write a To Do",
         })}
-        placeholder="Write a to do..."
+        placeholder={`${category}`}
       />
       <AddBtn>Add</AddBtn>
     </form>

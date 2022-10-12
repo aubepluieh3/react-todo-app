@@ -34,6 +34,9 @@ const Category = styled.select`
   padding: 6px;
   border-radius: 10px;
   text-align: center;
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 function ToDoList() {
