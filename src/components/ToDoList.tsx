@@ -29,8 +29,8 @@ const Main = styled.div`
 
 const Category = styled.select`
   margin: 15px 0px;
-  background-color: whitesmoke;
-  border: 2px solid whitesmoke;
+  background-color: ${(props) => props.theme.basicColor};
+  border: 2px solid ${(props) => props.theme.basicColor};
   padding: 6px;
   border-radius: 10px;
   text-align: center;

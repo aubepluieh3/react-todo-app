@@ -11,14 +11,14 @@ const Input = styled.input`
   outline: none;
   background: none;
   border: none;
-  border-bottom: 2px solid whitesmoke;
+  border-bottom: 2px solid ${(props) => props.theme.basicColor};
   text-align: center;
 `;
 
 const AddBtn = styled.button`
   margin: 25px 5px;
-  background-color: whitesmoke;
-  border: 2px solid whitesmoke;
+  background-color: ${(props) => props.theme.basicColor};
+  border: 2px solid ${(props) => props.theme.basicColor};
   color: ${(props) => props.theme.textColor};
   font-size: 13px;
   border-radius: 5px;

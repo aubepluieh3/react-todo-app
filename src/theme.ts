@@ -5,4 +5,5 @@ export const theme: DefaultTheme = {
   textColor: "#464548",
   accentColor: "#ead5ff",
   cardBgColor: "transparent",
+  basicColor: "whitesmoke",
 };

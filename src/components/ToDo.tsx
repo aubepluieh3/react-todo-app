@@ -10,10 +10,10 @@ const Text = styled.span`
 
 const Btn = styled.button`
   margin: 5px 5px;
-  background-color: whitesmoke;
+  background-color: ${(props) => props.theme.basicColor};
   color: ${(props) => props.theme.textColor};
   font-size: 10px;
-  border: 2px solid whitesmoke;
+  border: 2px solid ${(props) => props.theme.basicColor};
   border-radius: 5px;
   &:hover {
     background-color: ${(props) => props.theme.accentColor};
@@ -24,7 +24,7 @@ const Btn = styled.button`
 
 const TextBox = styled.div`
   text-align: center;
-  border: 2px solid whitesmoke;
+  border: 2px solid ${(props) => props.theme.basicColor};
   border-radius: 5px;
   padding: 0px 5px;
 `;
