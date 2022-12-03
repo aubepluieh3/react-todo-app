@@ -1,6 +1,6 @@
 # 📝 ToDo
 
-22.10.11 ~ 22.10.14
+22.10.11 ~ 22.10.14 wth NomadCoder
 
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/></a>
